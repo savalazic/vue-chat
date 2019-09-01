@@ -1,0 +1,43 @@
+{
+  "name": "vue-chat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "run:server": "node ./server/index.js",
+    "debug:server": "node --inspect=0.0.0.0:9229 ./server/index.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "body-parser": "^1.19.0",
+    "core-js": "^2.6.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "redis": "^2.8.0",
+    "socket.io": "^2.2.0",
+    "socket.io-redis": "^5.2.0",
+    "vue": "^2.6.10",
+    "vue-loading-spinner": "^1.0.11",
+    "vue-material": "^1.0.0-beta-11",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.3",
+    "vue-socket.io": "^3.0.7",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
